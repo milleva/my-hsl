@@ -1,0 +1,20 @@
+Home tram stops
+haapaniemi , karhupuisto
+"HSL:1113433", "HSL:1112434",
+
+Work tram stops
+erottaja
+"HSL:1040113", "HSL:1040437"
+Aleksanterinkatu
+
+GraphiQL (stop ids, haapaniemi, karhupuisto, erottaja)
+
+{
+  stops(ids: ["HSL:1113433", "HSL:1112434", "HSL:1040113", "HSL:1040437"]) {
+    gtfsId
+    name
+    code
+    lat
+    lon
+  }
+}
